@@ -1,0 +1,507 @@
+2025-06-01 09:15:31,317 - INFO - HEAD http://localhost:9200/mosdac_content [status:N/A duration:4.099s]
+2025-06-01 09:15:31,318 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 1 times in a row, putting on 1 second timeout
+2025-06-01 09:15:31,319 - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1037, in send
+    self.connect()
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002052ADED4C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000002052ADED4C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-06-01 09:15:35,419 - INFO - HEAD http://localhost:9200/mosdac_content [status:N/A duration:4.075s]
+2025-06-01 09:15:35,420 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 2 times in a row, putting on 2 second timeout
+2025-06-01 09:15:35,420 - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1037, in send
+    self.connect()
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002052A53E5A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000002052A53E5A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-06-01 09:15:35,425 - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-06-01 09:15:39,505 - INFO - HEAD http://localhost:9200/mosdac_content [status:N/A duration:4.079s]
+2025-06-01 09:15:39,506 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 3 times in a row, putting on 4 second timeout
+2025-06-01 09:15:39,507 - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1037, in send
+    self.connect()
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002052ADED760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000002052ADED760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-06-01 09:15:39,516 - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-06-01 09:15:43,570 - INFO - HEAD http://localhost:9200/mosdac_content [status:N/A duration:4.052s]
+2025-06-01 09:15:43,570 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 4 times in a row, putting on 8 second timeout
+2025-06-01 09:15:43,571 - ERROR - Error indexing from file scraped_data.json: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000002052ADED4C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))
+2025-06-01 09:17:39,939 - INFO - HEAD http://localhost:9200/mosdac_content [status:N/A duration:4.098s]
+2025-06-01 09:17:39,940 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 1 times in a row, putting on 1 second timeout
+2025-06-01 09:17:39,941 - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1037, in send
+    self.connect()
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001F4891F0F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001F4891F0F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-06-01 09:17:44,042 - INFO - HEAD http://localhost:9200/mosdac_content [status:N/A duration:4.083s]
+2025-06-01 09:17:44,044 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 2 times in a row, putting on 2 second timeout
+2025-06-01 09:17:44,044 - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1037, in send
+    self.connect()
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001F487CD24E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001F487CD24E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-06-01 09:17:44,052 - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-06-01 09:17:48,143 - INFO - HEAD http://localhost:9200/mosdac_content [status:N/A duration:4.087s]
+2025-06-01 09:17:48,144 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 3 times in a row, putting on 4 second timeout
+2025-06-01 09:17:48,145 - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 167, in perform_request
+    response = self.pool.urlopen(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1037, in send
+    self.connect()
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001F4891F10D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaimin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\elastic_transport\_node\_http_urllib3.py", line 202, in perform_request
+    raise err from e
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001F4891F10D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-06-01 09:17:48,148 - INFO - Resurrected node <Urllib3HttpNode(http://localhost:9200)> (force=False)
+2025-06-01 09:17:52,241 - INFO - HEAD http://localhost:9200/mosdac_content [status:N/A duration:4.094s]
+2025-06-01 09:17:52,243 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 4 times in a row, putting on 8 second timeout
+2025-06-01 09:17:52,244 - ERROR - Error indexing from file scraped_data.json: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001F4891F0F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))
+2025-06-08 09:59:07,443 - INFO - Connecting to PostgreSQL at localhost:5432, database: rohini, user: postgres
+2025-06-08 09:59:07,506 - INFO - Successfully connected to PostgreSQL
+2025-06-08 10:00:24,137 - INFO - Connecting to PostgreSQL at localhost:5432, database: rohini, user: postgres
+2025-06-08 10:00:24,195 - INFO - Successfully connected to PostgreSQL
+2025-06-08 10:00:24,342 - INFO - Created table and indexes: mosdac_content
+2025-06-08 10:00:24,382 - INFO - Indexed document: https://mosdac.gov.in
+2025-06-08 10:00:24,384 - INFO - Indexed document: https://mosdac.gov.in#main-content
+2025-06-08 10:00:24,385 - INFO - Indexed document: https://mosdac.gov.in/internal/registration
+2025-06-08 10:00:24,386 - INFO - Indexed document: https://mosdac.gov.in/
+2025-06-08 10:00:24,387 - INFO - Indexed document: https://mosdac.gov.in/terms-conditions
+2025-06-08 10:00:24,390 - INFO - Indexed document: https://mosdac.gov.in/internal/uops
+2025-06-08 10:00:24,391 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=AX-GW_sDjsM&execution=9df053f1-55e1-4d2c-b1ae-a86b988114ed&kc_locale=hi
+2025-06-08 10:00:24,394 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=AX-GW_sDjsM&execution=9df053f1-55e1-4d2c-b1ae-a86b988114ed&kc_locale=en
+2025-06-08 10:00:24,397 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/reset-credentials?client_id=mosdac&tab_id=AX-GW_sDjsM
+2025-06-08 10:00:24,399 - INFO - Indexed document: https://mosdac.gov.in/internal/logout
+2025-06-08 10:00:24,404 - INFO - Indexed document: https://mosdac.gov.in/insat-3dr
+2025-06-08 10:00:24,405 - INFO - Indexed document: https://mosdac.gov.in/insat-3dr#main-content
+2025-06-08 10:00:24,409 - INFO - Indexed document: https://mosdac.gov.in/insat-3d
+2025-06-08 10:00:24,413 - INFO - Indexed document: https://mosdac.gov.in/kalpana-1
+2025-06-08 10:00:24,416 - INFO - Indexed document: https://mosdac.gov.in/insat-3a
+2025-06-08 10:00:24,418 - INFO - Indexed document: https://mosdac.gov.in/megha-tropiques
+2025-06-08 10:00:24,420 - INFO - Indexed document: https://mosdac.gov.in/saral-altika
+2025-06-08 10:00:24,423 - INFO - Indexed document: https://mosdac.gov.in/oceansat-2
+2025-06-08 10:00:24,425 - INFO - Indexed document: https://mosdac.gov.in/oceansat-3
+2025-06-08 10:00:24,430 - INFO - Indexed document: https://mosdac.gov.in/insat-3ds
+2025-06-08 10:00:24,432 - INFO - Indexed document: https://mosdac.gov.in/scatsat-1
+2025-06-08 10:00:24,433 - ERROR - Error indexing document https://mosdac.gov.in/internal/catalog-satellite: can't adapt type 'dict'
+2025-06-08 10:00:24,433 - ERROR - Error in bulk indexing: can't adapt type 'dict'
+2025-06-08 10:00:24,433 - ERROR - Error indexing from file scraped_data.json: can't adapt type 'dict'
+2025-06-08 10:01:34,408 - INFO - Connecting to PostgreSQL at localhost:5432, database: rohini, user: postgres
+2025-06-08 10:01:34,459 - INFO - Successfully connected to PostgreSQL
+2025-06-08 10:01:34,464 - INFO - Created table and indexes: mosdac_content
+2025-06-08 10:01:34,478 - INFO - Indexed document: https://mosdac.gov.in
+2025-06-08 10:01:34,480 - INFO - Indexed document: https://mosdac.gov.in#main-content
+2025-06-08 10:01:34,482 - INFO - Indexed document: https://mosdac.gov.in/internal/registration
+2025-06-08 10:01:34,483 - INFO - Indexed document: https://mosdac.gov.in/
+2025-06-08 10:01:34,488 - INFO - Indexed document: https://mosdac.gov.in/terms-conditions
+2025-06-08 10:01:34,489 - INFO - Indexed document: https://mosdac.gov.in/internal/uops
+2025-06-08 10:01:34,490 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=AX-GW_sDjsM&execution=9df053f1-55e1-4d2c-b1ae-a86b988114ed&kc_locale=hi
+2025-06-08 10:01:34,491 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=AX-GW_sDjsM&execution=9df053f1-55e1-4d2c-b1ae-a86b988114ed&kc_locale=en
+2025-06-08 10:01:34,493 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/reset-credentials?client_id=mosdac&tab_id=AX-GW_sDjsM
+2025-06-08 10:01:34,495 - INFO - Indexed document: https://mosdac.gov.in/internal/logout
+2025-06-08 10:01:34,497 - INFO - Indexed document: https://mosdac.gov.in/insat-3dr
+2025-06-08 10:01:34,499 - INFO - Indexed document: https://mosdac.gov.in/insat-3dr#main-content
+2025-06-08 10:01:34,502 - INFO - Indexed document: https://mosdac.gov.in/insat-3d
+2025-06-08 10:01:34,506 - INFO - Indexed document: https://mosdac.gov.in/kalpana-1
+2025-06-08 10:01:34,508 - INFO - Indexed document: https://mosdac.gov.in/insat-3a
+2025-06-08 10:01:34,511 - INFO - Indexed document: https://mosdac.gov.in/megha-tropiques
+2025-06-08 10:01:34,514 - INFO - Indexed document: https://mosdac.gov.in/saral-altika
+2025-06-08 10:01:34,516 - INFO - Indexed document: https://mosdac.gov.in/oceansat-2
+2025-06-08 10:01:34,520 - INFO - Indexed document: https://mosdac.gov.in/oceansat-3
+2025-06-08 10:01:34,523 - INFO - Indexed document: https://mosdac.gov.in/insat-3ds
+2025-06-08 10:01:34,526 - INFO - Indexed document: https://mosdac.gov.in/scatsat-1
+2025-06-08 10:01:34,528 - INFO - Indexed document: https://mosdac.gov.in/internal/catalog-satellite
+2025-06-08 10:01:34,530 - INFO - Indexed document: https://mosdac.gov.in/internal/catalog-insitu
+2025-06-08 10:01:34,531 - INFO - Indexed document: https://mosdac.gov.in/internal/catalog-radar
+2025-06-08 10:01:34,532 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery
+2025-06-08 10:01:34,533 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery/weather
+2025-06-08 10:01:34,534 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery/ocean
+2025-06-08 10:01:34,536 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery/dwr
+2025-06-08 10:01:34,537 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery/current
+2025-06-08 10:01:34,541 - INFO - Indexed document: https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall
+2025-06-08 10:01:34,545 - INFO - Indexed document: https://mosdac.gov.in/gps-derived-integrated-water-vapour
+2025-06-08 10:01:34,551 - INFO - Indexed document: https://mosdac.gov.in/gsmap-isro-rain
+2025-06-08 10:01:34,554 - INFO - Indexed document: https://mosdac.gov.in/meteosat8-cloud-properties
+2025-06-08 10:01:34,557 - INFO - Indexed document: https://mosdac.gov.in/3d-volumetric-terls-dwrproduct
+2025-06-08 10:01:34,562 - INFO - Indexed document: https://mosdac.gov.in/inland-water-height
+2025-06-08 10:01:34,564 - INFO - Indexed document: https://mosdac.gov.in/river-discharge
+2025-06-08 10:01:34,567 - INFO - Indexed document: https://mosdac.gov.in/soil-moisture-0
+2025-06-08 10:01:34,572 - INFO - Indexed document: https://mosdac.gov.in/global-ocean-surface-current
+2025-06-08 10:01:34,577 - INFO - Indexed document: https://mosdac.gov.in/high-resolution-sea-surface-salinity
+2025-06-08 10:01:34,582 - INFO - Indexed document: https://mosdac.gov.in/indian-mainland-coastal-product
+2025-06-08 10:01:34,586 - INFO - Indexed document: https://mosdac.gov.in/ocean-subsurface
+2025-06-08 10:01:34,589 - INFO - Indexed document: https://mosdac.gov.in/oceanic-eddies-detection
+2025-06-08 10:01:34,594 - INFO - Indexed document: https://mosdac.gov.in/sea-ice-occurrence-probability
+2025-06-08 10:01:34,598 - INFO - Indexed document: https://mosdac.gov.in/wave-based-renewable-energy
+2025-06-08 10:01:34,599 - INFO - Indexed document: https://mosdac.gov.in/internal/calval-data
+2025-06-08 10:01:34,601 - INFO - Indexed document: https://mosdac.gov.in/internal/forecast-menu
+2025-06-08 10:01:34,603 - INFO - Indexed document: https://mosdac.gov.in/rss-feed
+2025-06-08 10:01:34,605 - INFO - Indexed document: https://mosdac.gov.in/insitu
+2025-06-08 10:01:34,607 - INFO - Indexed document: https://mosdac.gov.in/calibration-reports
+2025-06-08 10:01:34,608 - INFO - Indexed document: https://mosdac.gov.in/validation-reports
+2025-06-08 10:01:34,609 - INFO - Indexed document: https://mosdac.gov.in/data-quality
+2025-06-08 10:01:34,611 - INFO - Indexed document: https://mosdac.gov.in/weather-reports
+2025-06-08 10:01:34,612 - INFO - Indexed document: https://mosdac.gov.in/atlases
+2025-06-08 10:01:34,613 - INFO - Indexed document: https://mosdac.gov.in/tools
+2025-06-08 10:01:34,615 - INFO - Indexed document: https://mosdac.gov.in/sitemap
+2025-06-08 10:01:34,618 - INFO - Indexed document: https://mosdac.gov.in/help
+2025-06-08 10:01:34,621 - INFO - Indexed document: https://mosdac.gov.in/node/322?language=hi
+2025-06-08 10:01:34,621 - INFO - Bulk indexed 57 documents
+2025-06-08 10:01:34,622 - INFO - Successfully indexed documents from scraped_data.json
+2025-06-08 10:06:18,280 - INFO - Connecting to PostgreSQL at localhost:5432, database: rohini, user: postgres
+2025-06-08 10:06:18,323 - INFO - Successfully connected to PostgreSQL
+2025-06-08 10:08:14,803 - INFO - Connecting to PostgreSQL at localhost:5432, database: rohini, user: postgres
+2025-06-08 10:08:14,851 - INFO - Successfully connected to PostgreSQL
+2025-06-08 10:10:53,539 - INFO - Connecting to PostgreSQL at localhost:5432, database: rohini, user: postgres
+2025-06-08 10:10:53,592 - INFO - Successfully connected to PostgreSQL
+2025-06-08 10:13:36,860 - INFO - Connecting to PostgreSQL at localhost:5432, database: rohini, user: postgres
+2025-06-08 10:13:36,920 - INFO - Successfully connected to PostgreSQL
+2025-06-08 10:13:36,928 - INFO - Created table and indexes: mosdac_content
+2025-06-08 10:13:36,936 - INFO - Indexed document: https://mosdac.gov.in
+2025-06-08 10:13:36,938 - INFO - Indexed document: https://mosdac.gov.in#main-content
+2025-06-08 10:13:36,939 - INFO - Indexed document: https://mosdac.gov.in/internal/registration
+2025-06-08 10:13:36,939 - INFO - Indexed document: https://mosdac.gov.in/
+2025-06-08 10:13:36,945 - INFO - Indexed document: https://mosdac.gov.in/terms-conditions
+2025-06-08 10:13:36,946 - INFO - Indexed document: https://mosdac.gov.in/internal/uops
+2025-06-08 10:13:36,950 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=AX-GW_sDjsM&execution=9df053f1-55e1-4d2c-b1ae-a86b988114ed&kc_locale=hi
+2025-06-08 10:13:36,951 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=AX-GW_sDjsM&execution=9df053f1-55e1-4d2c-b1ae-a86b988114ed&kc_locale=en
+2025-06-08 10:13:36,952 - INFO - Indexed document: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/reset-credentials?client_id=mosdac&tab_id=AX-GW_sDjsM
+2025-06-08 10:13:36,955 - INFO - Indexed document: https://mosdac.gov.in/internal/logout
+2025-06-08 10:13:36,959 - INFO - Indexed document: https://mosdac.gov.in/insat-3dr
+2025-06-08 10:13:36,962 - INFO - Indexed document: https://mosdac.gov.in/insat-3dr#main-content
+2025-06-08 10:13:36,966 - INFO - Indexed document: https://mosdac.gov.in/insat-3d
+2025-06-08 10:13:36,969 - INFO - Indexed document: https://mosdac.gov.in/kalpana-1
+2025-06-08 10:13:36,973 - INFO - Indexed document: https://mosdac.gov.in/insat-3a
+2025-06-08 10:13:36,977 - INFO - Indexed document: https://mosdac.gov.in/megha-tropiques
+2025-06-08 10:13:36,982 - INFO - Indexed document: https://mosdac.gov.in/saral-altika
+2025-06-08 10:13:36,986 - INFO - Indexed document: https://mosdac.gov.in/oceansat-2
+2025-06-08 10:13:36,988 - INFO - Indexed document: https://mosdac.gov.in/oceansat-3
+2025-06-08 10:13:36,992 - INFO - Indexed document: https://mosdac.gov.in/insat-3ds
+2025-06-08 10:13:36,996 - INFO - Indexed document: https://mosdac.gov.in/scatsat-1
+2025-06-08 10:13:37,000 - INFO - Indexed document: https://mosdac.gov.in/internal/catalog-satellite
+2025-06-08 10:13:37,003 - INFO - Indexed document: https://mosdac.gov.in/internal/catalog-insitu
+2025-06-08 10:13:37,005 - INFO - Indexed document: https://mosdac.gov.in/internal/catalog-radar
+2025-06-08 10:13:37,006 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery
+2025-06-08 10:13:37,008 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery/weather
+2025-06-08 10:13:37,009 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery/ocean
+2025-06-08 10:13:37,011 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery/dwr
+2025-06-08 10:13:37,012 - INFO - Indexed document: https://mosdac.gov.in/internal/gallery/current
+2025-06-08 10:13:37,021 - INFO - Indexed document: https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall
+2025-06-08 10:13:37,026 - INFO - Indexed document: https://mosdac.gov.in/gps-derived-integrated-water-vapour
+2025-06-08 10:13:37,032 - INFO - Indexed document: https://mosdac.gov.in/gsmap-isro-rain
+2025-06-08 10:13:37,039 - INFO - Indexed document: https://mosdac.gov.in/meteosat8-cloud-properties
+2025-06-08 10:13:37,046 - INFO - Indexed document: https://mosdac.gov.in/3d-volumetric-terls-dwrproduct
+2025-06-08 10:13:37,054 - INFO - Indexed document: https://mosdac.gov.in/inland-water-height
+2025-06-08 10:13:37,060 - INFO - Indexed document: https://mosdac.gov.in/river-discharge
+2025-06-08 10:13:37,065 - INFO - Indexed document: https://mosdac.gov.in/soil-moisture-0
+2025-06-08 10:13:37,076 - INFO - Indexed document: https://mosdac.gov.in/global-ocean-surface-current
+2025-06-08 10:13:37,083 - INFO - Indexed document: https://mosdac.gov.in/high-resolution-sea-surface-salinity
+2025-06-08 10:13:37,093 - INFO - Indexed document: https://mosdac.gov.in/indian-mainland-coastal-product
+2025-06-08 10:13:37,101 - INFO - Indexed document: https://mosdac.gov.in/ocean-subsurface
+2025-06-08 10:13:37,111 - INFO - Indexed document: https://mosdac.gov.in/oceanic-eddies-detection
+2025-06-08 10:13:37,118 - INFO - Indexed document: https://mosdac.gov.in/sea-ice-occurrence-probability
+2025-06-08 10:13:37,124 - INFO - Indexed document: https://mosdac.gov.in/wave-based-renewable-energy
+2025-06-08 10:13:37,125 - INFO - Indexed document: https://mosdac.gov.in/internal/calval-data
+2025-06-08 10:13:37,127 - INFO - Indexed document: https://mosdac.gov.in/internal/forecast-menu
+2025-06-08 10:13:37,130 - INFO - Indexed document: https://mosdac.gov.in/rss-feed
+2025-06-08 10:13:37,132 - INFO - Indexed document: https://mosdac.gov.in/insitu
+2025-06-08 10:13:37,135 - INFO - Indexed document: https://mosdac.gov.in/calibration-reports
+2025-06-08 10:13:37,137 - INFO - Indexed document: https://mosdac.gov.in/validation-reports
+2025-06-08 10:13:37,140 - INFO - Indexed document: https://mosdac.gov.in/data-quality
+2025-06-08 10:13:37,143 - INFO - Indexed document: https://mosdac.gov.in/weather-reports
+2025-06-08 10:13:37,146 - INFO - Indexed document: https://mosdac.gov.in/atlases
+2025-06-08 10:13:37,148 - INFO - Indexed document: https://mosdac.gov.in/tools
+2025-06-08 10:13:37,151 - INFO - Indexed document: https://mosdac.gov.in/sitemap
+2025-06-08 10:13:37,155 - INFO - Indexed document: https://mosdac.gov.in/help
+2025-06-08 10:13:37,160 - INFO - Indexed document: https://mosdac.gov.in/node/322?language=hi
+2025-06-08 10:13:37,160 - INFO - Bulk indexed 57 documents
+2025-06-08 10:13:37,161 - INFO - Successfully indexed documents from scraped_data.json
+2025-06-08 10:13:45,135 - INFO - Connecting to PostgreSQL at localhost:5432, database: rohini, user: postgres
+2025-06-08 10:13:45,190 - INFO - Successfully connected to PostgreSQL

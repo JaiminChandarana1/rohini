@@ -1,0 +1,1397 @@
+2025-06-01 09:02:35,900 - INFO - ====== WebDriver manager ======
+2025-06-01 09:02:39,703 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-01 09:02:40,814 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-01 09:02:41,765 - INFO - There is no [win64] chromedriver "136.0.7103.113" for browser google-chrome "136.0.7103" in cache
+2025-06-01 09:02:41,765 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-01 09:02:44,012 - INFO - WebDriver version 136.0.7103.113 selected
+2025-06-01 09:02:44,018 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/win32/chromedriver-win32.zip
+2025-06-01 09:02:44,019 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/win32/chromedriver-win32.zip
+2025-06-01 09:02:44,497 - INFO - Driver downloading response is 200
+2025-06-01 09:02:48,872 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-01 09:02:50,754 - INFO - Driver has been saved in cache [C:\Users\Jaimin\.wdm\drivers\chromedriver\win64\136.0.7103.113]
+2025-06-01 09:04:46,263 - INFO - WebDriver setup successful
+2025-06-01 09:04:46,264 - INFO - Crawling: https://mosdac.gov.in (depth: 0)
+2025-06-01 09:04:53,869 - INFO - Crawling: https://mosdac.gov.in#main-content (depth: 1)
+2025-06-01 09:04:55,962 - INFO - Crawling: https://mosdac.gov.in/internal/registration (depth: 2)
+2025-06-01 09:05:00,495 - INFO - Crawling: https://mosdac.gov.in/ (depth: 3)
+2025-06-01 09:05:07,444 - INFO - Crawling: https://mosdac.gov.in/terms-conditions (depth: 3)
+2025-06-01 09:05:10,641 - INFO - Crawling: https://mosdac.gov.in/internal/uops (depth: 2)
+2025-06-01 09:05:20,219 - INFO - Crawling: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=AX-GW_sDjsM&execution=9df053f1-55e1-4d2c-b1ae-a86b988114ed&kc_locale=hi (depth: 3)
+2025-06-01 09:05:22,576 - INFO - Crawling: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/authenticate?client_id=mosdac&tab_id=AX-GW_sDjsM&execution=9df053f1-55e1-4d2c-b1ae-a86b988114ed&kc_locale=en (depth: 3)
+2025-06-01 09:05:24,880 - INFO - Crawling: https://mosdac.gov.in/auth/realms/Mosdac/login-actions/reset-credentials?client_id=mosdac&tab_id=AX-GW_sDjsM (depth: 3)
+2025-06-01 09:05:27,222 - INFO - Crawling: https://mosdac.gov.in/internal/logout (depth: 2)
+2025-06-01 09:05:30,429 - INFO - Crawling: https://mosdac.gov.in/insat-3dr (depth: 2)
+2025-06-01 09:05:37,380 - INFO - Crawling: https://mosdac.gov.in/insat-3dr#main-content (depth: 3)
+2025-06-01 09:05:39,433 - INFO - Crawling: https://mosdac.gov.in/insat-3d (depth: 3)
+2025-06-01 09:05:42,601 - INFO - Crawling: https://mosdac.gov.in/kalpana-1 (depth: 3)
+2025-06-01 09:05:45,525 - INFO - Crawling: https://mosdac.gov.in/insat-3a (depth: 3)
+2025-06-01 09:05:48,328 - INFO - Crawling: https://mosdac.gov.in/megha-tropiques (depth: 3)
+2025-06-01 09:05:50,924 - INFO - Crawling: https://mosdac.gov.in/saral-altika (depth: 3)
+2025-06-01 09:05:56,559 - INFO - Crawling: https://mosdac.gov.in/oceansat-2 (depth: 3)
+2025-06-01 09:05:59,215 - INFO - Crawling: https://mosdac.gov.in/oceansat-3 (depth: 3)
+2025-06-01 09:06:02,117 - INFO - Crawling: https://mosdac.gov.in/insat-3ds (depth: 3)
+2025-06-01 09:06:06,844 - INFO - Crawling: https://mosdac.gov.in/scatsat-1 (depth: 3)
+2025-06-01 09:06:09,441 - INFO - Crawling: https://mosdac.gov.in/internal/catalog-satellite (depth: 3)
+2025-06-01 09:06:17,785 - INFO - Crawling: https://mosdac.gov.in/internal/catalog-insitu (depth: 3)
+2025-06-01 09:06:20,846 - INFO - Crawling: https://mosdac.gov.in/internal/catalog-radar (depth: 3)
+2025-06-01 09:06:28,874 - INFO - Crawling: https://mosdac.gov.in/internal/gallery (depth: 3)
+2025-06-01 09:06:32,165 - INFO - Crawling: https://mosdac.gov.in/internal/gallery/weather (depth: 3)
+2025-06-01 09:06:35,590 - INFO - Crawling: https://mosdac.gov.in/internal/gallery/ocean (depth: 3)
+2025-06-01 09:06:42,690 - INFO - Crawling: https://mosdac.gov.in/internal/gallery/dwr (depth: 3)
+2025-06-01 09:06:46,411 - INFO - Crawling: https://mosdac.gov.in/internal/gallery/current (depth: 3)
+2025-06-01 09:06:50,008 - INFO - Crawling: https://mosdac.gov.in/bayesian-based-mt-saphir-rainfall (depth: 3)
+2025-06-01 09:06:53,334 - INFO - Crawling: https://mosdac.gov.in/gps-derived-integrated-water-vapour (depth: 3)
+2025-06-01 09:06:56,665 - INFO - Crawling: https://mosdac.gov.in/gsmap-isro-rain (depth: 3)
+2025-06-01 09:06:59,803 - INFO - Crawling: https://mosdac.gov.in/meteosat8-cloud-properties (depth: 3)
+2025-06-01 09:07:02,962 - INFO - Crawling: https://mosdac.gov.in/3d-volumetric-terls-dwrproduct (depth: 3)
+2025-06-01 09:07:05,837 - INFO - Crawling: https://mosdac.gov.in/inland-water-height (depth: 3)
+2025-06-01 09:07:08,705 - INFO - Crawling: https://mosdac.gov.in/river-discharge (depth: 3)
+2025-06-01 09:07:11,793 - INFO - Crawling: https://mosdac.gov.in/soil-moisture-0 (depth: 3)
+2025-06-01 09:07:15,686 - INFO - Crawling: https://mosdac.gov.in/global-ocean-surface-current (depth: 3)
+2025-06-01 09:07:18,547 - INFO - Crawling: https://mosdac.gov.in/high-resolution-sea-surface-salinity (depth: 3)
+2025-06-01 09:07:21,851 - INFO - Crawling: https://mosdac.gov.in/indian-mainland-coastal-product (depth: 3)
+2025-06-01 09:07:29,036 - INFO - Crawling: https://mosdac.gov.in/ocean-subsurface (depth: 3)
+2025-06-01 09:07:32,155 - INFO - Crawling: https://mosdac.gov.in/oceanic-eddies-detection (depth: 3)
+2025-06-01 09:07:36,259 - INFO - Crawling: https://mosdac.gov.in/sea-ice-occurrence-probability (depth: 3)
+2025-06-01 09:07:39,094 - INFO - Crawling: https://mosdac.gov.in/wave-based-renewable-energy (depth: 3)
+2025-06-01 09:07:41,990 - INFO - Crawling: https://mosdac.gov.in/internal/calval-data (depth: 3)
+2025-06-01 09:07:45,835 - INFO - Crawling: https://mosdac.gov.in/internal/forecast-menu (depth: 3)
+2025-06-01 09:07:48,838 - INFO - Crawling: https://mosdac.gov.in/rss-feed (depth: 3)
+2025-06-01 09:07:51,662 - INFO - Crawling: https://mosdac.gov.in/insitu (depth: 3)
+2025-06-01 09:07:55,326 - INFO - Crawling: https://mosdac.gov.in/calibration-reports (depth: 3)
+2025-06-01 09:07:58,049 - INFO - Crawling: https://mosdac.gov.in/validation-reports (depth: 3)
+2025-06-01 09:08:01,139 - INFO - Crawling: https://mosdac.gov.in/data-quality (depth: 3)
+2025-06-01 09:08:04,812 - INFO - Crawling: https://mosdac.gov.in/weather-reports (depth: 3)
+2025-06-01 09:08:07,461 - INFO - Crawling: https://mosdac.gov.in/atlases (depth: 3)
+2025-06-01 09:08:13,537 - INFO - Crawling: https://mosdac.gov.in/tools (depth: 3)
+2025-06-01 09:08:17,404 - INFO - Crawling: https://mosdac.gov.in/sitemap (depth: 3)
+2025-06-01 09:08:20,636 - INFO - Crawling: https://mosdac.gov.in/help (depth: 3)
+2025-06-01 09:08:23,525 - INFO - Crawling: https://mosdac.gov.in/node/322?language=hi (depth: 3)
+2025-06-01 09:08:27,200 - INFO - Crawling: https://mosdac.gov.in/insat-3dr-introduction (depth: 3)
+2025-06-01 09:14:49,407 - ERROR - Error crawling https://mosdac.gov.in/insat-3dr-introduction: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8F9A]
+	(No symbol) [0x00007FF7F85E4E35]
+	(No symbol) [0x00007FF7F8609DB4]
+	(No symbol) [0x00007FF7F867EE75]
+	(No symbol) [0x00007FF7F869ECC2]
+	(No symbol) [0x00007FF7F8677153]
+	(No symbol) [0x00007FF7F8640421]
+	(No symbol) [0x00007FF7F86411B3]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	GetHandleVerifier [0x00007FF7F8835294+109332]
+	GetHandleVerifier [0x00007FF7F8835442+109762]
+	GetHandleVerifier [0x00007FF7F881BA59+4825]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,408 - INFO - Crawling: https://mosdac.gov.in/insat-3dr-objectives (depth: 3)
+2025-06-01 09:14:49,542 - ERROR - Error crawling https://mosdac.gov.in/insat-3dr-objectives: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,543 - INFO - Crawling: https://mosdac.gov.in/insat-3dr-spacecraft (depth: 3)
+2025-06-01 09:14:49,545 - ERROR - Error crawling https://mosdac.gov.in/insat-3dr-spacecraft: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,546 - INFO - Crawling: https://mosdac.gov.in/insat-3dr-payloads (depth: 3)
+2025-06-01 09:14:49,548 - ERROR - Error crawling https://mosdac.gov.in/insat-3dr-payloads: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,548 - INFO - Crawling: https://mosdac.gov.in/internal/catalog-insat3dr (depth: 3)
+2025-06-01 09:14:49,550 - ERROR - Error crawling https://mosdac.gov.in/internal/catalog-insat3dr: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,550 - INFO - Crawling: https://mosdac.gov.in/insat-3dr-references (depth: 3)
+2025-06-01 09:14:49,552 - ERROR - Error crawling https://mosdac.gov.in/insat-3dr-references: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,553 - INFO - Crawling: https://mosdac.gov.in/rss.xml (depth: 3)
+2025-06-01 09:14:49,555 - ERROR - Error crawling https://mosdac.gov.in/rss.xml: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,555 - INFO - Crawling: https://mosdac.gov.in/docs/STQC.pdf (depth: 3)
+2025-06-01 09:14:49,560 - ERROR - Error crawling https://mosdac.gov.in/docs/STQC.pdf: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,560 - INFO - Crawling: https://mosdac.gov.in/mosdac-feedback (depth: 3)
+2025-06-01 09:14:49,566 - ERROR - Error crawling https://mosdac.gov.in/mosdac-feedback: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,566 - INFO - Crawling: https://mosdac.gov.in/about-us (depth: 3)
+2025-06-01 09:14:49,568 - ERROR - Error crawling https://mosdac.gov.in/about-us: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,569 - INFO - Crawling: https://mosdac.gov.in/contact-us (depth: 3)
+2025-06-01 09:14:49,573 - ERROR - Error crawling https://mosdac.gov.in/contact-us: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,573 - INFO - Crawling: https://mosdac.gov.in/copyright-policy (depth: 3)
+2025-06-01 09:14:49,577 - ERROR - Error crawling https://mosdac.gov.in/copyright-policy: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,578 - INFO - Crawling: https://mosdac.gov.in/data-access-policy (depth: 3)
+2025-06-01 09:14:49,581 - ERROR - Error crawling https://mosdac.gov.in/data-access-policy: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,582 - INFO - Crawling: https://mosdac.gov.in/hyperlink-policy (depth: 3)
+2025-06-01 09:14:49,588 - ERROR - Error crawling https://mosdac.gov.in/hyperlink-policy: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,588 - INFO - Crawling: https://mosdac.gov.in/privacy-policy (depth: 3)
+2025-06-01 09:14:49,590 - ERROR - Error crawling https://mosdac.gov.in/privacy-policy: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,591 - INFO - Crawling: https://mosdac.gov.in/website-policies (depth: 3)
+2025-06-01 09:14:49,594 - ERROR - Error crawling https://mosdac.gov.in/website-policies: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,595 - INFO - Crawling: https://mosdac.gov.in/faq-page (depth: 3)
+2025-06-01 09:14:49,600 - ERROR - Error crawling https://mosdac.gov.in/faq-page: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,600 - INFO - Crawling: https://mosdac.gov.in/insat-3dr#top (depth: 3)
+2025-06-01 09:14:49,602 - ERROR - Error crawling https://mosdac.gov.in/insat-3dr#top: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,602 - INFO - Crawling: https://mosdac.gov.in/node?qt-latest_products=0#qt-latest_products (depth: 2)
+2025-06-01 09:14:49,604 - ERROR - Error crawling https://mosdac.gov.in/node?qt-latest_products=0#qt-latest_products: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,605 - INFO - Crawling: https://mosdac.gov.in/node?qt-latest_products=1#qt-latest_products (depth: 2)
+2025-06-01 09:14:49,606 - ERROR - Error crawling https://mosdac.gov.in/node?qt-latest_products=1#qt-latest_products: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,607 - INFO - Crawling: https://mosdac.gov.in/node?qt-latest_products=2#qt-latest_products (depth: 2)
+2025-06-01 09:14:49,610 - ERROR - Error crawling https://mosdac.gov.in/node?qt-latest_products=2#qt-latest_products: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,611 - INFO - Crawling: https://mosdac.gov.in/node?qt-latest_products=3#qt-latest_products (depth: 2)
+2025-06-01 09:14:49,616 - ERROR - Error crawling https://mosdac.gov.in/node?qt-latest_products=3#qt-latest_products: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,617 - INFO - Crawling: https://mosdac.gov.in/node?qt-latest_products=4#qt-latest_products (depth: 2)
+2025-06-01 09:14:49,619 - ERROR - Error crawling https://mosdac.gov.in/node?qt-latest_products=4#qt-latest_products: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,619 - INFO - Crawling: https://mosdac.gov.in/imageshow (depth: 2)
+2025-06-01 09:14:49,622 - ERROR - Error crawling https://mosdac.gov.in/imageshow: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,622 - INFO - Crawling: https://mosdac.gov.in/gallery/index.html%3F%26prod%3D3SIMG_%2A_L1B_STD_IR1_V%2A.jpg (depth: 2)
+2025-06-01 09:14:49,633 - ERROR - Error crawling https://mosdac.gov.in/gallery/index.html%3F%26prod%3D3SIMG_%2A_L1B_STD_IR1_V%2A.jpg: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,634 - INFO - Crawling: https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg (depth: 2)
+2025-06-01 09:14:49,637 - ERROR - Error crawling https://mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,637 - INFO - Crawling: https://mosdac.gov.in/node?qt-services_quicktab=0#qt-services_quicktab (depth: 2)
+2025-06-01 09:14:49,639 - ERROR - Error crawling https://mosdac.gov.in/node?qt-services_quicktab=0#qt-services_quicktab: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,706 - INFO - Crawling: https://mosdac.gov.in/node?qt-services_quicktab=1#qt-services_quicktab (depth: 2)
+2025-06-01 09:14:49,708 - ERROR - Error crawling https://mosdac.gov.in/node?qt-services_quicktab=1#qt-services_quicktab: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,708 - INFO - Crawling: https://mosdac.gov.in/node?qt-services_quicktab=2#qt-services_quicktab (depth: 2)
+2025-06-01 09:14:49,710 - ERROR - Error crawling https://mosdac.gov.in/node?qt-services_quicktab=2#qt-services_quicktab: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,711 - INFO - Crawling: https://mosdac.gov.in/node?qt-services_quicktab=3#qt-services_quicktab (depth: 2)
+2025-06-01 09:14:49,712 - ERROR - Error crawling https://mosdac.gov.in/node?qt-services_quicktab=3#qt-services_quicktab: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,713 - INFO - Crawling: https://mosdac.gov.in/node?qt-services_quicktab=4#qt-services_quicktab (depth: 2)
+2025-06-01 09:14:49,714 - ERROR - Error crawling https://mosdac.gov.in/node?qt-services_quicktab=4#qt-services_quicktab: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,715 - INFO - Crawling: https://mosdac.gov.in/node?qt-services_quicktab=5#qt-services_quicktab (depth: 2)
+2025-06-01 09:14:49,717 - ERROR - Error crawling https://mosdac.gov.in/node?qt-services_quicktab=5#qt-services_quicktab: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,718 - INFO - Crawling: https://mosdac.gov.in/internal/weather (depth: 2)
+2025-06-01 09:14:49,719 - ERROR - Error crawling https://mosdac.gov.in/internal/weather: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,720 - INFO - Crawling: https://mosdac.gov.in/internal/coldwave (depth: 2)
+2025-06-01 09:14:49,721 - ERROR - Error crawling https://mosdac.gov.in/internal/coldwave: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,722 - INFO - Crawling: https://mosdac.gov.in/internal/cyclone (depth: 2)
+2025-06-01 09:14:49,723 - ERROR - Error crawling https://mosdac.gov.in/internal/cyclone: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,723 - INFO - Crawling: https://mosdac.gov.in/internal/heat-cold-wave (depth: 2)
+2025-06-01 09:14:49,725 - ERROR - Error crawling https://mosdac.gov.in/internal/heat-cold-wave: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,725 - INFO - Crawling: https://mosdac.gov.in/internal/forecast-heavyrain (depth: 2)
+2025-06-01 09:14:49,727 - ERROR - Error crawling https://mosdac.gov.in/internal/forecast-heavyrain: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,728 - INFO - Crawling: https://mosdac.gov.in/internal/lightning (depth: 2)
+2025-06-01 09:14:49,730 - ERROR - Error crawling https://mosdac.gov.in/internal/lightning: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,730 - INFO - Crawling: https://mosdac.gov.in/internal/monsoon (depth: 2)
+2025-06-01 09:14:49,732 - ERROR - Error crawling https://mosdac.gov.in/internal/monsoon: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,733 - INFO - Crawling: https://mosdac.gov.in/internal/sea-state-forecast (depth: 2)
+2025-06-01 09:14:49,735 - ERROR - Error crawling https://mosdac.gov.in/internal/sea-state-forecast: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,735 - INFO - Crawling: https://mosdac.gov.in/internal/energy (depth: 2)
+2025-06-01 09:14:49,738 - ERROR - Error crawling https://mosdac.gov.in/internal/energy: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,738 - INFO - Crawling: https://mosdac.gov.in/internal/nowcast-cloudburst (depth: 2)
+2025-06-01 09:14:49,741 - ERROR - Error crawling https://mosdac.gov.in/internal/nowcast-cloudburst: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,741 - INFO - Crawling: https://mosdac.gov.in/internal/nowcast-heavyrain (depth: 2)
+2025-06-01 09:14:49,745 - ERROR - Error crawling https://mosdac.gov.in/internal/nowcast-heavyrain: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,746 - INFO - Crawling: https://mosdac.gov.in/internal/aws (depth: 2)
+2025-06-01 09:14:49,750 - ERROR - Error crawling https://mosdac.gov.in/internal/aws: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,750 - INFO - Crawling: https://mosdac.gov.in/internal/event-heavyrain (depth: 2)
+2025-06-01 09:14:49,752 - ERROR - Error crawling https://mosdac.gov.in/internal/event-heavyrain: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,753 - INFO - Crawling: https://mosdac.gov.in/internal/live (depth: 2)
+2025-06-01 09:14:49,755 - ERROR - Error crawling https://mosdac.gov.in/internal/live: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,755 - INFO - Crawling: https://mosdac.gov.in/internal/state (depth: 2)
+2025-06-01 09:14:49,758 - ERROR - Error crawling https://mosdac.gov.in/internal/state: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,760 - INFO - Crawling: https://mosdac.gov.in/internal/afs-seac (depth: 2)
+2025-06-01 09:14:49,763 - ERROR - Error crawling https://mosdac.gov.in/internal/afs-seac: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,764 - INFO - Crawling: https://mosdac.gov.in/internal/urja (depth: 2)
+2025-06-01 09:14:49,767 - ERROR - Error crawling https://mosdac.gov.in/internal/urja: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,768 - INFO - Crawling: https://mosdac.gov.in/internal/varsha (depth: 2)
+2025-06-01 09:14:49,770 - ERROR - Error crawling https://mosdac.gov.in/internal/varsha: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,770 - INFO - Crawling: https://mosdac.gov.in/internal/vayu (depth: 2)
+2025-06-01 09:14:49,773 - ERROR - Error crawling https://mosdac.gov.in/internal/vayu: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,773 - INFO - Crawling: https://mosdac.gov.in/internal/soil-wetness (depth: 2)
+2025-06-01 09:14:49,778 - ERROR - Error crawling https://mosdac.gov.in/internal/soil-wetness: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,779 - INFO - Crawling: https://mosdac.gov.in/internal/oilspill (depth: 2)
+2025-06-01 09:14:49,782 - ERROR - Error crawling https://mosdac.gov.in/internal/oilspill: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,783 - INFO - Crawling: https://mosdac.gov.in/internal/ocean (depth: 2)
+2025-06-01 09:14:49,785 - ERROR - Error crawling https://mosdac.gov.in/internal/ocean: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,785 - INFO - Crawling: https://mosdac.gov.in/internal/rip (depth: 2)
+2025-06-01 09:14:49,789 - ERROR - Error crawling https://mosdac.gov.in/internal/rip: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,789 - INFO - Crawling: https://mosdac.gov.in/internal/ocean-eye (depth: 2)
+2025-06-01 09:14:49,791 - ERROR - Error crawling https://mosdac.gov.in/internal/ocean-eye: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,793 - INFO - Crawling: https://mosdac.gov.in/internal/eddy (depth: 2)
+2025-06-01 09:14:49,799 - ERROR - Error crawling https://mosdac.gov.in/internal/eddy: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,799 - INFO - Crawling: https://mosdac.gov.in/sites/default/files/docs/Onset%20Prediction%202024.pdf (depth: 2)
+2025-06-01 09:14:49,801 - ERROR - Error crawling https://mosdac.gov.in/sites/default/files/docs/Onset%20Prediction%202024.pdf: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,802 - INFO - Crawling: https://mosdac.gov.in/sites/default/files/docs/Onset%20Prediction%202023.pdf (depth: 2)
+2025-06-01 09:14:49,804 - ERROR - Error crawling https://mosdac.gov.in/sites/default/files/docs/Onset%20Prediction%202023.pdf: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,804 - INFO - Crawling: https://mosdac.gov.in/sites/default/files/docs/INSAT_Product_Version_information_V01.pdf (depth: 2)
+2025-06-01 09:14:49,815 - ERROR - Error crawling https://mosdac.gov.in/sites/default/files/docs/INSAT_Product_Version_information_V01.pdf: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,816 - INFO - Crawling: https://mosdac.gov.in/sites/default/files/docs/sftp-mosdac_0.pdf (depth: 2)
+2025-06-01 09:14:49,819 - ERROR - Error crawling https://mosdac.gov.in/sites/default/files/docs/sftp-mosdac_0.pdf: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,820 - INFO - Crawling: https://mosdac.gov.in/announcements (depth: 2)
+2025-06-01 09:14:49,824 - ERROR - Error crawling https://mosdac.gov.in/announcements: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
+2025-06-01 09:14:49,825 - INFO - Crawling: https://mosdac.gov.in#top (depth: 2)
+2025-06-01 09:14:49,829 - ERROR - Error crawling https://mosdac.gov.in#top: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F882CF45+75717]
+	GetHandleVerifier [0x00007FF7F882CFA0+75808]
+	(No symbol) [0x00007FF7F85F8DCC]
+	(No symbol) [0x00007FF7F863F54F]
+	(No symbol) [0x00007FF7F8677242]
+	(No symbol) [0x00007FF7F8671C63]
+	(No symbol) [0x00007FF7F8670D29]
+	(No symbol) [0x00007FF7F85C5A55]
+	GetHandleVerifier [0x00007FF7F8B2D71D+3223453]
+	GetHandleVerifier [0x00007FF7F8B27CC2+3200322]
+	GetHandleVerifier [0x00007FF7F8B45AF3+3322739]
+	GetHandleVerifier [0x00007FF7F8846A1A+180890]
+	GetHandleVerifier [0x00007FF7F884E11F+211359]
+	(No symbol) [0x00007FF7F85C4AC8]
+	GetHandleVerifier [0x00007FF7F8C16FC8+4180040]
+	BaseThreadInitThunk [0x00007FF85B07E8D7+23]
+	RtlUserThreadStart [0x00007FF85C63C34C+44]
+
